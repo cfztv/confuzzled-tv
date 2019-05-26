@@ -1,0 +1,42 @@
+{
+    "2019_opening_ceremony": {
+        "title": "Opening Ceremony 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-opening-ceremony.jpeg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-opening-ceremony.mp4",
+        "description": "The Opening Ceremony to Confuzzled 2019.",
+        "categories": [
+            "2019",
+            "opening"
+        ]
+    },
+    "2019_task_master": {
+        "title": "Task Master 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-taskmaster.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-taskmaster.mp4",
+        "description": "The 2019 edition of Taskmaster!",
+        "categories": [
+            "2019",
+            "task_master"
+        ]
+    },
+    "2019_uncle_cages_story_hour": {
+        "title": "Uncle Kage's Story Hour 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-unclekage.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-unclekage.mp4",
+        "description": "An hour of hilarity with Uncle Kage",
+        "categories": [
+            "2019",
+            "uncle_kage"
+        ]
+    },
+    "2019_would_i_lie_to_you": {
+        "title": "Would I Lie To You 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-wilty.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-wilty.mp4",
+        "description": "Our very own version packed full of fun!",
+        "categories": [
+            "2019",
+            "would_i_lie_to_you"
+        ]
+    }
+}
