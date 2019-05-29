@@ -2,7 +2,7 @@
     "2019_opening_ceremony": {
         "title": "Opening Ceremony 2019",
         "poster": "https://fdn.redstone.tech/cfz/cfz19-opening-ceremony.jpeg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-opening-ceremony.mp4",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-opening-ceremony-low.mp4",
         "description": "The Opening Ceremony to Confuzzled 2019.",
         "categories": [
             "2019",
@@ -12,7 +12,7 @@
     "2019_task_master": {
         "title": "Task Master 2019",
         "poster": "https://fdn.redstone.tech/cfz/cfz19-taskmaster.jpg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-taskmaster.mp4",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-taskmaster-low.mp4",
         "description": "The 2019 edition of Taskmaster!",
         "categories": [
             "2019",
@@ -22,21 +22,71 @@
     "2019_uncle_kages_story_hour": {
         "title": "Uncle Kage's Story Hour 2019",
         "poster": "https://fdn.redstone.tech/cfz/cfz19-unclekage.jpg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-unclekage.mp4",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-unclekage-low.mp4",
         "description": "An hour of hilarity with Uncle Kage",
         "categories": [
             "2019",
             "uncle_kage"
         ]
     },
+    "2019_banner_brawl": {
+        "title": "Banner Brawl 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-bannerbrawl.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-bannerbrawl-low.mp4",
+        "description": "Art and comedy. Teams of artists add drawings to their team banner, based on random suggestions drawn from the hat.",
+        "categories": [
+            "2019",
+            "banner_brawl"
+        ]
+    },
     "2019_would_i_lie_to_you": {
         "title": "Would I Lie To You 2019",
         "poster": "https://fdn.redstone.tech/cfz/cfz19-wilty.jpg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-wilty.mp4",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-wilty-low.mp4",
         "description": "Our very own version packed full of fun!",
         "categories": [
             "2019",
             "would_i_lie_to_you"
+        ]
+    },
+    "2019_dance_competition": {
+        "title": "Fursuit Dance Competition 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-dance-competition.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-dance-competition-low.mp4",
+        "description": "ConFuzzled's 2019 Dance Competition.",
+        "categories": [
+            "2019",
+            "dance_competition"
+        ]
+    },
+    "2019_laser-maze": {
+        "title": "Laser Maze 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-lasermaze.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-lasermaze-low.mp4",
+        "description": "ConFuzzled's 2019 Laser Maze.",
+        "categories": [
+            "2019",
+            "laser-maze"
+        ]
+    },
+    "2019_jyms-gameshow": {
+        "title": "Gym's Game Show 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-jyms-game-show.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-jyms-game-show-low.mp4",
+        "description": "ConFuzzled's 2019 Gym's Game Show.",
+        "categories": [
+            "2019",
+            "jyms-gameshow"
+        ]
+    },
+    "2019_closing-ceremony": {
+        "title": "Closing Ceremony 2019",
+        "poster": "https://fdn.redstone.tech/cfz/cfz19-closing-ceremony.jpg",
+        "video": "https://fdn.redstone.tech/cfz/cfz19-closing-ceremoy-low.mp4",
+        "description": "ConFuzzled's 2019 Closing Ceremony.",
+        "categories": [
+            "2019",
+            "closing-ceremony"
         ]
     }
 }
