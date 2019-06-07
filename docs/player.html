@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-    <link href="/css/theme.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
 
 </head>
 <body>
@@ -41,19 +41,19 @@
                         <a class="nav-link pl-0" href="/"><i class="fas fa-fw  fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/archive.html"><i class="fas fa-fw  fa-archive"></i> Archive</a>
+                        <a class="nav-link" href="archive.html"><i class="fas fa-fw  fa-archive"></i> Archive</a>
                     </li>
                 </ul>
             </div>
 
             <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">
-                <img src="/img/paw.png" id="navbar_paw">ConFuzzled TV
+                <img src="img/paw.png" id="navbar_paw">ConFuzzled TV
             </a>
             
             <div class="navbar-collapse collapse dual-nav w-50 order-2">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link bg-danger" href="/live.html" style="color:#ffffff;"><i class="fas fa-fw fa-video"></i> Watch Live</a>
+                        <a class="nav-link bg-danger" href="live.html" style="color:#ffffff;"><i class="fas fa-fw fa-video"></i> Watch Live</a>
                     </li>
                 </ul>
             </div>
@@ -93,7 +93,8 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
+    <script src='https://vjs.zencdn.net/7.5.4/video.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-hls-quality-selector@1.0.5/dist/videojs-hls-quality-selector.cjs.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
@@ -101,20 +102,22 @@
     <script>
         var cfz_videos;
         var urlParams = new URLSearchParams(window.location.search);
-        console.log(urlParams.get('video'));
     
         function loadVideo(video){
             $(".video_title").html(video.title);
             document.title = video.title + " - ConFuzzled TV";
             $(".video_description").html(video.description);
 
-             videojs('cfz_tv_vod_player').ready(function () {
-                var cfzVodPlayer = this;
-                cfzVodPlayer.reset();
-                $('#cfz_tv_vod_player').attr('poster', video.poster);
-                console.log(video.poster);
-                cfzVodPlayer.src({ type: 'video/mp4', src: video.video});
-            });
+            // videojs('cfz_tv_vod_player').ready(function () {
+            //     var player = this;
+            //     player.reset();
+            //     $('#cfz_tv_vod_player').attr('poster', video.poster);
+            //     player.src({ type: video.type, src: video.video});
+            // });
+
+            let player = videojs('cfz_tv_vod_player');
+            player.src({type: video.type, src: video.video});
+            $('#cfz_tv_vod_player').attr('poster', video.poster);
         }
 
         $(document).ready(function () {
