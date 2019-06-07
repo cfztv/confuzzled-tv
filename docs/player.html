@@ -106,14 +106,14 @@
         function loadVideo(video){
             $(".video_title").html(video.title);
             document.title = video.title + " - ConFuzzled TV";
-            $(".video_description").html(video.description);
-
+            
             videojs('cfz_tv_vod_player').ready(function () {
                 var player = this;
                 player.reset();
                 $('#cfz_tv_vod_player').attr('poster', video.poster);
                 player.src({ type: video.type, src: video.video});
-                player.canPlayType(video.type) ? player.src({ type: video.type, src: video.video}) : $("#cfz_tv_vod_player").contents = "Your device is not supported";
+                player.canPlayType(video.type) ? $(".video_description").html(video.description) : $(".video_description").html(video.description + "<br /> Media cannot be played on this device");;
+                player.src({ type: video.type, src: video.video});
             });
 
 
