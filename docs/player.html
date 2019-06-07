@@ -108,16 +108,16 @@
             document.title = video.title + " - ConFuzzled TV";
             $(".video_description").html(video.description);
 
-            // videojs('cfz_tv_vod_player').ready(function () {
-            //     var player = this;
-            //     player.reset();
-            //     $('#cfz_tv_vod_player').attr('poster', video.poster);
-            //     player.src({ type: video.type, src: video.video});
-            // });
+            videojs('cfz_tv_vod_player').ready(function () {
+                var player = this;
+                player.reset();
+                $('#cfz_tv_vod_player').attr('poster', video.poster);
+                player.src({ type: video.type, src: video.video});
+            });
 
-            let player = videojs('cfz_tv_vod_player');
-            player.src({type: video.type, src: video.video});
-            $('#cfz_tv_vod_player').attr('poster', video.poster);
+            // let player = videojs('cfz_tv_vod_player');
+            // player.src({type: video.type, src: video.video});
+            // $('#cfz_tv_vod_player').attr('poster', video.poster);
         }
 
         $(document).ready(function () {
