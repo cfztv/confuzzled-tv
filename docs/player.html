@@ -113,7 +113,9 @@
                 player.reset();
                 $('#cfz_tv_vod_player').attr('poster', video.poster);
                 player.src({ type: video.type, src: video.video});
+                player.canPlayType(video.type) ? player.src({ type: video.type, src: video.video}) : $("#cfz_tv_vod_player").contents = "Your device is not supported";
             });
+
 
             // let player = videojs('cfz_tv_vod_player');
             // player.src({type: video.type, src: video.video});
