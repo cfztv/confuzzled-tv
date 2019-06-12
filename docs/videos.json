@@ -2,8 +2,8 @@
     "2019_opening_ceremony": {
         "title": "Opening Ceremony",
         "poster": "https://cdn.confuzzled.tv/2019/img/cfz19-opening-ceremony.jpeg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-opening-ceremony-low.mp4",
-        "type": "video/mp4",
+        "video": "https://cdn.confuzzled.tv/2019/hls/OpeningCeremony/playlist.m3u8",
+        "type": "application/x-mpegURL",
         "description": "The formal opening of ConFuzzled. Introducing our theme, charity, guests of honour, and any other messages from our staff and the hotel.",
         "categories": [
             "2019",
