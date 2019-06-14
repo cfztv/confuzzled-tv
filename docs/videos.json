@@ -35,7 +35,7 @@
     "2019_banner_brawl": {
         "title": "Banner Brawl",
         "poster": "https://cdn.confuzzled.tv/2019/img/cfz19-bannerbrawl.jpg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-bannerbrawl-low.mp4",
+        "video": "https://cdn.confuzzled.tv/2019/hls/BannerBrawl/playlist.m3u8",
         "type": "video/mp4",
         "description": "Art and comedy. Teams of artists add drawings to their team banner, based on random suggestions drawn from the hat.",
         "categories": [
