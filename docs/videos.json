@@ -68,7 +68,7 @@
     "2019_laser-maze": {
         "title": "Laser Maze",
         "poster": "https://cdn.confuzzled.tv/2019/img/cfz19-lasermaze.jpg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-lasermaze-low.mp4",
+        "video": "https://cdn.confuzzled.tv/2019/hls/LaserMaze/playlist.m3u8",
         "type": "video/mp4",
         "description": "Come up on stage and test your skills against the LASER MAZE! It's a MAZE made from LASERS. The Ultimate Heist - Crack the maze to gain points for your team! Fursuits and non-fursuits welcome!",
         "categories": [
