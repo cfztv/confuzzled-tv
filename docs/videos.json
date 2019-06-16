@@ -13,7 +13,7 @@
     "2019_task_master": {
         "title": "Task Master",
         "poster": "https://cdn.confuzzled.tv/2019/img/cfz19-taskmaster.jpg",
-        "video": "https://fdn.redstone.tech/cfz/cfz19-taskmaster-low.mp4",
+        "video": "https://cdn.confuzzled.tv/2019/hls/TaskMaster/playlist.m3u8",
         "type": "video/mp4",
         "description": "Back for a second show, with five brand new contestants, performing the devilish deeds of the Taskmaster! The contestants haven't even met, but they've been in competition with each other for months... who will most please the Taskmaster?",
         "categories": [
