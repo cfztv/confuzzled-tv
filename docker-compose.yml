@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web:
+    image: httpd:alpine
+    ports:
+     - "8080:80"
+    volumes:
+     - ./docs:/usr/local/apache2/htdocs/
