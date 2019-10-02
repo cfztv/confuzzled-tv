@@ -1,8 +1,8 @@
 {
     "2019_opening_ceremony": {
         "title": "Opening Ceremony",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-opening-ceremony.jpeg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/OpeningCeremony/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-opening-ceremony.jpeg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/OpeningCeremony/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "The formal opening of ConFuzzled. Introducing our theme, charity, guests of honour, and any other messages from our staff and the hotel.",
         "categories": [
@@ -12,8 +12,8 @@
     },
     "2019_task_master": {
         "title": "Task Master",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-taskmaster.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/TaskMaster/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-taskmaster.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/TaskMaster/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "Back for a second show, with five brand new contestants, performing the devilish deeds of the Taskmaster! The contestants haven't even met, but they've been in competition with each other for months... who will most please the Taskmaster?",
         "categories": [
@@ -23,8 +23,8 @@
     },
     "2019_uncle_kages_story_hour": {
         "title": "Uncle Kage's Story Hour",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-unclekage.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/UncleKage/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-unclekage.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/UncleKage/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "Comedy anecdotes from the chairman of Anthrocon, Uncle Kage.",
         "categories": [
@@ -34,8 +34,8 @@
     },
     "2019_banner_brawl": {
         "title": "Banner Brawl",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-bannerbrawl.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/BannerBrawl/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-bannerbrawl.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/BannerBrawl/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "Art and comedy. Teams of artists add drawings to their team banner, based on random suggestions drawn from the hat.",
         "categories": [
@@ -45,8 +45,8 @@
     },
     "2019_would_i_lie_to_you": {
         "title": "Would I Lie To You",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-wilty.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/WILTY/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-wilty.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/WILTY/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "Furries, lies and even weirder truths. Join us as we find out which one of six guests lies so well they should be a politician, and which tell porkies that are so false they belong in a Gregg's vegan sausage roll.",
         "categories": [
@@ -56,8 +56,8 @@
     },
     "2019_dance_competition": {
         "title": "Fursuit Dance Competition",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-dance-competition.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/DanceCompetition/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-dance-competition.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/DanceCompetition/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "A competitive dancing event in which fursuiters dance to their choice of music, for you and for a panel of judges who decide the winner.",
         "categories": [
@@ -67,8 +67,8 @@
     },
     "2019_laser-maze": {
         "title": "Laser Maze",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-lasermaze.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/LaserMaze/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-lasermaze.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/LaserMaze/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "Come up on stage and test your skills against the LASER MAZE! It's a MAZE made from LASERS. The Ultimate Heist - Crack the maze to gain points for your team! Fursuits and non-fursuits welcome!",
         "categories": [
@@ -78,8 +78,8 @@
     },
     "2019_jyms-gameshow": {
         "title": "Jym's Saturday Night Travesty",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-jyms-game-show.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/JymsGameShow/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-jyms-game-show.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/JymsGameShow/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "The Saturday Night Travesty returns... this time, with balls. Join Jym and six of the finest guests he could find on Monday afternoon as they battle their way through much the same games as last year all with the naive hope that they might win something worthwhile. And if you're in the audience, you might just win too!",
         "categories": [
@@ -89,8 +89,8 @@
     },
     "2019_closing-ceremony": {
         "title": "Closing Ceremony",
-        "poster": "https://dist.creeper.host/cfz/2019/img/cfz19-closing-ceremony.jpg",
-        "video": "https://dist.creeper.host/cfz/2019/hls/ClosingCeremony/playlist.m3u8",
+        "poster": "https://cdn.confuzzled.tv/cfz/2019/img/cfz19-closing-ceremony.jpg",
+        "video": "https://cdn.confuzzled.tv/cfz/2019/hls/ClosingCeremony/playlist.m3u8",
         "type": "application/x-mpegURL",
         "description": "The formal closing of ConFuzzled. We will announce the money raised for charity, hear from our Guests of Honour, find out next year's theme, and receive other messages from our staff and the hotel.",
         "categories": [
